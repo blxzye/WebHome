@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="Dl6waXGRdDYJXHQKY6XZQXKtQvSAromWTIXDukKp">
+    
+    <title>Arctic Laravel 9+ & Bootstrap Admin Dashboard Template |     Analytic dashboard
+</title>
+    
+    <link rel="icon" type="image/x-icon" href="https://arctic-laravel.ui-lib.com/storage/img/favicon.ico" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" />
+    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap"
+        rel="stylesheet" />
+
+
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+
+    
+    <link rel="stylesheet" href="https://arctic-laravel.ui-lib.com/css/vendors.bundle.min.css" />
+
+    <!--Page Level Styles -->
+    <link rel="stylesheet" href="https://arctic-laravel.ui-lib.com/css/pages/dashboard/analytic.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css" />
+
+
+
+
+    
+    <link rel="stylesheet" href="https://arctic-laravel.ui-lib.com/css/main.bundle.css" />
+
+    
+
+
+    
+    
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Pre Loader Strat  -->
+    <div class='loadscreen' id="preloader">
+
+        <div id="loader" class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Pre Loader end  -->
+    <div class="app-admin-wrap-layout-1 sidebar-full sidebar-theme-slate subheader-fixed">
+        <div class="sidebar-panel">
+    <div class="sidebar-compact-switch"><span></span>
+        <div></div><span></span>
+    </div>
+    <div class="brand"><img src="https://arctic-laravel.ui-lib.com/images/arctic-circle-logo.svg" alt="" /><span
+            class="app-logo-text ml-2 text-20">ARCTIC</span></div>
+
+    <!-- Start:: user-->
+    <div class="scroll-nav" data-perfect-scrollbar="" data-suppress-scroll-x="true">
+        
+        <!-- End:: user-->
+        <!-- Start:: side-nav-->
+        <div class="side-nav">
+            <div class="main-menu">
+                <nav class="sidebar-nav">
+                    <ul class="metismenu show-on-load" id="ul-menu">
+                        <li class="main-menu-title">DASHBOARDS</li>
+                        <li class=" "><a class="has-arrow"
+                                href="#"><i class="material-icons nav-icon">dashboard</i>Dashboards</a>
+                            <ul class="mm-collapse">
+                                <li
+                                    class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/dashboard/learning-management"><i
+                                            class="bullet-icon"></i>Learning
+                                        Management</a>
+                                </li>
+                                <li class=""><a
+                                        href="https://arctic-laravel.ui-lib.com/dashboard/job-management"><i class="bullet-icon"></i>Job
+                                        Management</a></li>
+                                <li class=""><a
+                                        href="https://arctic-laravel.ui-lib.com/dashboard/analytic"><i class="bullet-icon"></i>Analytic</a>
+                                </li>
+                                <li class=""><a
+                                        href="https://arctic-laravel.ui-lib.com/dashboard/crypto-currency"><i
+                                            class="bullet-icon"></i>Cryptocurrency</a></li>
+                                <li class=""><a
+                                        href="https://arctic-laravel.ui-lib.com/dashboard/sales"><i class="bullet-icon"></i>Sales</a></li>
+                                <li class=""><a
+                                        href="https://arctic-laravel.ui-lib.com/dashboard/subscription"><i
+                                            class="bullet-icon"></i>Subscription</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-title">CUSTOM</li>
+                        <li class=""><a class="has-arrow"
+                                href="#"><i class="material-icons nav-icon">web_asset</i>Pages</a>
+                            <ul class="mm-collapse">
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i
+                                            class="material-icons nav-icon">feedback</i>FAQ</a>
+                                    <ul class="mm-collapse">
+                                        <li class=""><a
+                                                href="https://arctic-laravel.ui-lib.com/pages/faq/faq.v1"><i class="bullet-icon"></i>FAQ
+                                                V1</a></li>
+                                        <li class=""><a
+                                                href="https://arctic-laravel.ui-lib.com/pages/faq/faq.v2"><i class="bullet-icon"></i>FAQ
+                                                V2</a></li>
+                                        <li class=""><a
+                                                href="https://arctic-laravel.ui-lib.com/pages/faq/faq.v3"><i class="bullet-icon"></i>FAQ
+                                                V3</a></li>
+                                    </ul>
+                                </li>
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i
+                                            class="material-icons nav-icon">list</i>List</a>
+                                    <ul class="mm-collapse">
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/list/column-list"><i class="bullet-icon"></i>List
+                                                Column</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/list/column-list-two"><i
+                                                    class="bullet-icon"></i>List
+                                                Column 2</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/list/column-list-three"><i
+                                                    class="bullet-icon"></i>List
+                                                Column 3</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/list/column-list-row"><i
+                                                    class="bullet-icon"></i>List
+                                                Column Row</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i
+                                            class="material-icons nav-icon">monetization_on</i>Pricing</a>
+                                    <ul class="mm-collapse">
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/pricing/pricing.v1"><i class="bullet-icon"></i>Pricing
+                                                v1</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/pricing/pricing.v2"><i class="bullet-icon"></i>Pricing
+                                                v2</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/pricing/pricing.v3"><i class="bullet-icon"></i>Pricing
+                                                v3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i
+                                            class="material-icons nav-icon">all_inbox</i>Invoice</a>
+                                    <ul class="mm-collapse">
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/invoice/invoice.v1"><i class="bullet-icon"></i>Invoice
+                                                v1</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/invoice/invoice.v2"><i class="bullet-icon"></i>Invoice
+                                                v2</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/invoice/invoice.edit"><i class="bullet-icon"></i>Edit
+                                                Invoice</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i
+                                            class="material-icons nav-icon">person</i>Profile</a>
+                                    <ul class="mm-collapse">
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/profile/profile.v1"><i class="bullet-icon"></i>Profile
+                                                v1</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/profile/profile.v2"><i class="bullet-icon"></i>Profile
+                                                v2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/pages/drag&amp;drop"><i
+                                            class="material-icons nav-icon">open_with</i>Drag &amp; Drop</a>
+                                </li>
+                                
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i
+                                            class="material-icons nav-icon">settings_applications</i>Session</a>
+                                    <ul class="mm-collapse">
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/error-404"><i class="bullet-icon"></i>404</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/error-505"><i
+                                                    class="bullet-icon"></i>error</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/forgot-password"><i
+                                                    class="bullet-icon"></i>forgot</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/lock-screen"><i
+                                                    class="bullet-icon"></i>lockscreen</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signin.v1"><i
+                                                    class="bullet-icon"></i>signin</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signin.v2"><i class="bullet-icon"></i>signin
+                                                2</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signin.v3"><i class="bullet-icon"></i>signin
+                                                3</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signin.v4"><i class="bullet-icon"></i>signin
+                                                4</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signup.v1"><i
+                                                    class="bullet-icon"></i>signup</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signup.v2"><i class="bullet-icon"></i>signup
+                                                2</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signup.v3"><i class="bullet-icon"></i>signup
+                                                3</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/pages/session/signup.v4"><i class="bullet-icon"></i>signup
+                                                4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=""><a class="has-arrow"
+                                href="#"><i class="material-icons nav-icon">web</i>Apps</a>
+                            <ul class="mm-collapse">
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/apps/note"><i
+                                            class="material-icons nav-icon">book</i>Note</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/apps/file-manager"><i
+                                            class="material-icons nav-icon">save</i>File
+                                        Manager</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/apps/inbox"><i
+                                            class="material-icons nav-icon">all_inbox</i>Inbox</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/apps/scrumboard"><i
+                                            class="material-icons nav-icon">all_inbox</i>Scrumboard</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/apps/chat"><i
+                                            class="material-icons nav-icon">chat</i>Chat</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=""><a class="has-arrow"
+                                href="#"><i class="material-icons nav-icon">view_array</i>Blocks</a>
+                            <ul class="mm-collapse">
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/blocks/sidebar"><i
+                                            class="bullet-icon"></i>Sidebars</a>
+                                </li>
+                                <li
+                                    class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/blocks/credit-card"><i class="bullet-icon"></i>Credit
+                                        Cards</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-title">DESIGN SYSTEM</li>
+                        <li class=""><a class="has-arrow"
+                                href="#"><i class="material-icons nav-icon">settings_input_component</i>Components</a>
+                            <ul class="mm-collapse">
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/accordion"><i class="bullet-icon"></i>Accordion</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/alert"><i class="bullet-icon"></i>Alert</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/avatar"><i class="bullet-icon"></i>Avatars</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/badge"><i class="bullet-icon"></i>Badge</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/breadcrumb"><i
+                                            class="bullet-icon"></i>Breadcrumb</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/buttons"><i class="bullet-icon"></i>Buttons</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/dropdown"><i class="bullet-icon"></i>Dropdown</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/carousel"><i class="bullet-icon"></i>Carousel</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/forms"><i class="bullet-icon"></i>Forms</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/forms-layout"><i class="bullet-icon"></i>Forms
+                                        Layout</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/list"><i class="bullet-icon"></i>List</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/pagination"><i
+                                            class="bullet-icon"></i>Pagination</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/popovers"><i class="bullet-icon"></i>Popovers</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/progressbar"><i
+                                            class="bullet-icon"></i>Progressbar</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/snackbar"><i class="bullet-icon"></i>Snackbar</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/tab"><i class="bullet-icon"></i>Tab</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/sweet-alert"><i class="bullet-icon"></i>SweetAlert
+                                        2</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/tooltip"><i class="bullet-icon"></i>Tooltip</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/components/tour"><i class="bullet-icon"></i>Tour</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=""><a
+                                class="has-arrow" href="#"><i class="material-icons nav-icon">text_format</i>Form
+                                Widgets</a>
+                            <ul class="mm-collapse">
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/validation"><i class="bullet-icon"></i>Form
+                                        Validation</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/datepicker"><i
+                                            class="bullet-icon"></i>Datepicker</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/form-repeater"><i class="bullet-icon"></i>Form
+                                        Repeater</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/timepicker"><i class="bullet-icon"></i>Time
+                                        Picker</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/touchspin"><i class="bullet-icon"></i>Touch
+                                        Spin</a>
+                                </li>
+                                <li
+                                    class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/bootstrap-maxlength"><i
+                                            class="bullet-icon"></i>Bootstrap
+                                        Maxlength</a>
+                                </li>
+                                <li
+                                    class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/bootstrap-tagify"><i
+                                            class="bullet-icon"></i>Bootstrap
+                                        Tagify</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/select2"><i class="bullet-icon"></i>Select2</a>
+                                </li>
+                                <li
+                                    class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/bootstrap-select"><i
+                                            class="bullet-icon"></i>Bootstrap
+                                        Select</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/typehead"><i class="bullet-icon"></i>Typeahead</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/inputmask"><i class="bullet-icon"></i>Inputmask</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/nouislider"><i
+                                            class="bullet-icon"></i>Nouislider</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/clipboard"><i class="bullet-icon"></i>Clipboard</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/dropzone"><i class="bullet-icon"></i>Dropzone</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/uppy"><i class="bullet-icon"></i>Uppy</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/filepond"><i class="bullet-icon"></i>FilePond</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/editor"><i class="bullet-icon"></i>Editor</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/form-widgets/imagecrop"><i class="bullet-icon"></i>Image
+                                        Crop</a>
+                                </li>
+                                <li class=""><a
+                                        class="has-arrow" href="#"><i class="bullet-icon"></i>Wizard</a>
+                                    <ul class="mm-collapse">
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/form-widgets/wizard/wizard1"><i class="bullet-icon"></i>Wizard
+                                                v1</a>
+                                        </li>
+                                        <li
+                                            class="">
+                                            <a href="https://arctic-laravel.ui-lib.com/form-widgets/wizard/wizard2"><i class="bullet-icon"></i>Wizard
+                                                v2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class=""><a class="has-arrow"
+                                href="#"><i class="material-icons nav-icon">widgets</i>Widgets</a>
+                            <ul class="mm-collapse">
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/widgets/general"><i class="bullet-icon"></i>General</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/widgets/table"><i class="bullet-icon"></i>Table
+                                        widgets</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://arctic-laravel.ui-lib.com/widgets/charts"><i class="bullet-icon"></i>Charts</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="main-menu-title">SYSTEM UTILITIES</li>
+                        <li class="">
+                            <a href="https://arctic-laravel.ui-lib.com/system-utilities/sass-variable"><i
+                                    class="material-icons nav-icon text-16">style</i>Sass Variables</a>
+                        </li>
+                        <li class="">
+                            <a href="https://arctic-laravel.ui-lib.com/system-utilities/background"><i
+                                    class="material-icons nav-icon text-16">style</i>Backgrounds</a>
+                        </li>
+                        <li class="">
+                            <a href="https://arctic-laravel.ui-lib.com/system-utilities/colors"><i
+                                    class="material-icons nav-icon text-16">color_lens</i>Colors</a>
+                        </li>
+                        <li class="">
+                            <a href="https://arctic-laravel.ui-lib.com/system-utilities/shadow"><i
+                                    class="material-icons nav-icon text-16">flip_to_front</i>Shadows</a>
+                        </li>
+                        <li class="">
+                            <a href="https://arctic-laravel.ui-lib.com/system-utilities/spacing"><i
+                                    class="material-icons nav-icon text-16">space_bar</i>Spacings</a>
+                        </li>
+                        <li class="">
+                            <a href="https://arctic-laravel.ui-lib.com/system-utilities/typography"><i
+                                    class="material-icons nav-icon text-16">text_fields</i>Typography</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="main-content-wrap">
+            <!-- Start::Mobile header-->
+<div class="ul-mobile-top-header bg-slate"><img class="ul-brand-mobile"
+        src="https://arctic-laravel.ui-lib.com/images/arctic-circle-logo.svg" alt="" />
+    <div class="flex-grow-1"></div>
+    <button class="sidebar-full-toggle btn btn-icon btn-primary rounded-circle text-white"><i
+            class="material-icons">menu</i></button>
+    <button class="btn btn-icon ul-header-menu-toggle btn-icon btn-primary rounded-circle text-white"><i
+            class="material-icons">more_vert</i></button><i
+        class="material-icons text-white ul-mobile-header-toggle">more_horiz</i>
+</div>
+<!-- End::Mobile header  -->
+
+<!-- Start::Main header  -->
+<header class="main-header bg-card d-flex flex-row justify-content-between align-items-center px-lg">
+    <!-- Start::Header menu-->
+    <div>
+        <div class="ul-header-menu-wrap"><i class="material-icons ul-header-menu-toggle">close</i>
+            <div class="ul-header-menu">
+                <ul class="ul-header-nav">
+                    <li class="ul-menu-item ul-menu-item--active"><a class="ul-menu-link" href="#">Dashboards</a>
+                    </li>
+                    <li class="ul-menu-item ul-menu-item-submenu"><a class="ul-menu-link" href="#">Components</a>
+                        <div class="ul-menu-submenu">
+                            <ul class="ul-menu-subnav">
+                                <li class="ul-menu-item ul-menu-item-submenu"><a class="ul-menu-link" href="#"> <i
+                                            class="material-icons ul-menu-item-icon">home</i>UI
+                                        Kits</a>
+                                    <div class="ul-menu-submenu">
+                                        <ul class="ul-menu-subnav">
+                                            <li class="ul-menu-item ul-menu-item-submenu"><a class="ul-menu-link"
+                                                    href="#"> <i
+                                                        class="material-icons ul-menu-item-icon">remove</i>Buttons</a>
+                                                <div class="ul-menu-submenu">
+                                                    <ul class="ul-menu-subnav">
+                                                        <li class="ul-menu-item"><a class="ul-menu-link" href="#">
+                                                                <i
+                                                                    class="material-icons ul-menu-item-icon">done</i>Child
+                                                                1</a></li>
+                                                        <li class="ul-menu-item"><a class="ul-menu-link" href="#">
+                                                                <i
+                                                                    class="material-icons ul-menu-item-icon">done</i>Child
+                                                                2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="ul-menu-item"><a class="ul-menu-link" href="#"> <i
+                                                        class="material-icons ul-menu-item-icon">remove</i>Badges</a>
+                                            </li>
+                                            <li class="ul-menu-item ul-menu-item-submenu"><a class="ul-menu-link"
+                                                    href="#"> <i
+                                                        class="material-icons ul-menu-item-icon">remove</i>Alerts</a>
+                                                <div class="ul-menu-submenu">
+                                                    <ul class="ul-menu-subnav">
+                                                        <li class="ul-menu-item"><a class="ul-menu-link"
+                                                                href="#">Child
+                                                                3</a></li>
+                                                        <li class="ul-menu-item"><a class="ul-menu-link"
+                                                                href="#">Child
+                                                                4</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="ul-menu-item"><a class="ul-menu-link" href="#"> <i
+                                            class="material-icons ul-menu-item-icon">dashboard</i>Apps</a>
+                                </li>
+                                <li class="ul-menu-item"><a class="ul-menu-link" href="#"> <i
+                                            class="material-icons ul-menu-item-icon">settings</i>Pages</a>
+                                </li>
+                                <li class="ul-menu-item"><a class="ul-menu-link" href="#"> <i
+                                            class="material-icons ul-menu-item-icon">reply_all</i>Plugins</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End::Header menu-->
+    <div class="ul-header-topbar">
+        <div class="flex-grow-1"></div>
+        <div class="ul-search-full-width">
+            <button class="toggle-search btn btn-opacity-default rounded-circle btn-icon mx-xs" type="button"><i
+                    class="material-icons">search</i></button>
+            <div class="ul-search-input-area">
+                <input id="app-search" type="text" placeholder="Explore Arctic..." aria-label="Search" />
+                <button class="btn btn-opacity-default rounded-circle btn-icon toggle-search" type="button"><i
+                        class="material-icons">close</i></button>
+            </div>
+            <div class="ul-search-result-area">
+                <div class="search-result"></div>
+            </div>
+        </div>
+        <div class="dropdown language-dropdown mx-xx">
+            <div class="header-btn-group">
+                <button class="btn btn-opacity-default rounded-circle btn-icon" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><img class="avatar-xs rounded-circle"
+                        src="https://arctic-laravel.ui-lib.com/images/flags/1x1/us.svg" alt="" /></button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#"> <img
+                            class="avatar-xxs rounded-circle mr-sm" src="https://arctic-laravel.ui-lib.com/images/flags/1x1/us.svg"
+                            alt="" />English</a><a class="dropdown-item" href="#"> <img
+                            class="avatar-xxs rounded-circle mr-sm" src="https://arctic-laravel.ui-lib.com/images/flags/1x1/es.svg"
+                            alt="" />Spanish</a><a class="dropdown-item" href="#"> <img
+                            class="avatar-xxs rounded-circle mr-sm" src="https://arctic-laravel.ui-lib.com/images/flags/1x1/in.svg"
+                            alt="" />Hindi</a>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-opacity-default rounded-circle btn-icon btn-badge"
+            data-sidebar-panel="asideNotification"><span class="badge badge-danger">3</span><i
+                class="material-icons">notifications</i></button>
+        <div class="dropdown profile-dropdown ml-xs">
+            <div class="header-btn-group">
+                <button class="btn d-flex py-1 pl-2 pr-0 rounded" id="dropdownTopUserProfile" type="button"
+                    data-sidebar-panel="asideProfile"><span class="m-0 mr-2 font-weight-normal">Hi,
+                        Watson</span><img alt="avatar" class="avatar-sm rounded-circle mr-1"
+                        src="https://arctic-laravel.ui-lib.com/images/faces/1.jpg" /></button>
+                <div aria-labelledby="dropdownTopUserProfile">
+                    <div class="card dropdown-menu p-0 ul-avatar-dropdown">
+                        <div class="card-header bg-primary">
+                            <div class="ul-avatar-dropdown-container"><img class="avatar-md rounded-circle mr-2"
+                                    src="https://arctic-laravel.ui-lib.com/images/faces/1.jpg" alt="avatar" />
+                                <div class="content">
+                                    <p class="text-white font-weight-semi m-0">Watson Joyce</p>
+                                    <p class="text-small text-muted my-xs">BTS,func Idi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-xl"><a class="dropdown-item link-alt" href="#"><i
+                                    class="material-icons icon icon-sm">account_box</i>My Profile</a><a
+                                class="dropdown-item link-alt" href="#"><i
+                                    class="material-icons icon icon-sm">assignment</i>My Tasks</a><a
+                                class="dropdown-item link-alt" href="#"><i
+                                    class="material-icons icon icon-sm">message</i>Messages</a><a
+                                class="dropdown-item link-alt" href="#"><i
+                                    class="material-icons icon icon-sm">settings</i>Settings</a></div>
+                        <div class="card-footer text-muted">
+                            <button class="btn btn-raised btn-raised-primary btn-sm" type="button">SIGN
+                                OUT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End::Main header-->
+            <!-- Start:: content body-->
+            <div class="main-content-body">
+                <!-- Start:: content (Your custom content)-->
+                
+                <div class="subheader px-lg">
+    <div class="subheader-container">
+        <div class="subheader-main d-none d-lg-flex">
+            <h3 class="subheader-title text-capitalize">
+                                Analytic
+                 </h3>
+            <nav class="ul-breadcrumb" aria-label="breadcrumb">
+                <ol class="ul-breadcrumb-items">
+                    <li class="breadcrumb-home"><a href="#"> <i class="material-icons">
+                                home
+                            </i></a></li>
+                    <li class="breadcrumb-item text-capitalize"><a href="#">                             dashboard
+                             </a></li>
+                    <li class="breadcrumb-item active text-capitalize" aria-current="page">
+                                                Analytic
+                                            </li>
+                </ol>
+            </nav>
+        </div>
+        <div class="flex-grow-1"></div>
+        <div class="subheader-toolbar"><a class="btn btn-opacity-primary btn-sm btn-icon mr-2"><i
+                    class="far fa-calendar-alt"></i></a><a class="btn btn-opacity-primary btn-sm btn-icon mr-2"><i
+                    class="fa fa-plus"></i></a>
+            <button class="btn btn-sm btn-opacity btn-primary" id="reportrange"><i
+                    class="fa fa-calendar mr-sm"></i><span></span></button>
+        </div>
+    </div>
+</div>
+                
+                <div class="container my-lg">
+                        <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-primary rounded-circle mb-md"><i
+                                class="material-icons">group</i></span>
+                        <h3 class="font-weight-bold m-0">30.2K</h3>
+                        <h6 class="heading-muted mb-xl">Total Followers</h6><a
+                            class="btn btn-opacity-primary rounded btn-sm d-flex" href="#"><i
+                                class="material-icons">arrow_drop_down </i>12.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card position-relative">
+                <button class="ul-analytic-sup btn btn-raised btn-flat-info rounded-circle btn-icon btn-sm"><i
+                        class="material-icons">my_location</i></button>
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-success rounded-circle mb-md"><i
+                                class="material-icons">touch_app</i></span>
+                        <h3 class="font-weight-bold m-0">9.2K</h3>
+                        <h6 class="heading-muted mb-xl">Impressions</h6><a
+                            class="btn btn-opacity-success rounded btn-sm d-flex" href="#"><i
+                                class="material-icons">arrow_drop_up </i>58.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card position-relative">
+                <button class="ul-analytic-sup btn btn-raised rounded-circle btn-icon btn-sm"><img class="rounded-circle"
+                        src="https://arctic-laravel.ui-lib.com/images/faces/2.jpg" alt="" /></button>
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-danger rounded-circle mb-md"><i
+                                class="material-icons">wifi_tethering</i></span>
+                        <h3 class="font-weight-bold m-0">1.2K</h3>
+                        <h6 class="heading-muted mb-xl">Connect</h6><a class="btn btn-opacity-danger rounded btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_down </i>05.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card position-relative">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-info rounded-circle mb-md"><i
+                                class="material-icons">rate_review</i></span>
+                        <h3 class="font-weight-bold m-0">18.2K</h3>
+                        <h6 class="heading-muted mb-xl">Rate Review</h6><a
+                            class="btn btn-opacity-info rounded btn-sm d-flex" href="#"><i
+                                class="material-icons">arrow_drop_up </i>05.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="card mb-xl">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="card-title m-0">Follower Growth</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary rounded-circle btn-icon m-0" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#"><i
+                                    class="material-icons">build</i>Action</a><a class="dropdown-item" href="#"><i
+                                    class="material-icons">add_shopping_cart</i>Another
+                                action</a><a class="dropdown-item" href="#"><i class="material-icons">create</i>Something
+                            </a></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-xl-5 col-md-12 d-flex justify-content-center flex-column">
+                            <div class="pl-lg d-flex">
+                                <div class="flex-grow-1">
+                                    <h2 class="font-weight-bold display-2 m-0">4,829</h2>
+                                    <h5 class="mb-4">Gained Followers (last 360 days)</h5>
+                                </div>
+                                <div>
+                                    <div class="d-flex align-items-center mb-3"><span
+                                            class="badge badge-opacity badge-success badge-xs mr-2"><i
+                                                class="material-icons">call_missed_outgoing</i></span>
+                                        <p class="m-0 heading-muted">You have a <span class="text-success mr-1">20%
+                                                Growth</span>compare to
+                                            last year</p>
+                                    </div>
+                                    <div class="d-flex align-items-center"><span
+                                            class="badge badge-opacity badge-warning badge-xs mr-2"><i
+                                                class="material-icons">call_missed_outgoing</i></span>
+                                        <p class="m-0 heading-muted">You have a reached <span class="text-warning mr-1">10%
+                                            </span>of your follower
+                                            goal </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-md-12">
+                            <div id="analayticOne"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between align-items mb-md">
+        <div class="d-flex align-items-center">
+            <div class="card-title m-0">Most</div>
+            <div class="dropdown">
+                <button class="btn btn-link m-0 btn-link-primary" type="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Recent Media
+
+                </button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="#">Last
+                        week</a><a class="dropdown-item" href="#">Last month</a><a class="dropdown-item" href="#">Last
+                        year</a></div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary rounded-circle btn-icon m-0" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></button>
+            <div class="dropdown-menu"><a class="dropdown-item" href="#"><i class="material-icons">build</i>Action</a><a
+                    class="dropdown-item" href="#"><i class="material-icons">add_shopping_cart</i>Another action</a><a
+                    class="dropdown-item" href="#"><i class="material-icons">create</i>Something </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card overflow-hidden"><img src="https://arctic-laravel.ui-lib.com/images/gallery/sq-11.jpg" alt="" />
+                <div class="d-flex justify-content-between align-items-center py-md px-3">
+                    <div class="d-flex align-items-center"><i
+                            class="material-icons text-16 mr-1 text-muted">favorite</i><span class="mr-2">2.3K
+                        </span><i class="material-icons text-16 mr-1 text-muted">chat</i><span>900</span>
+                    </div>
+                    <p class="m-0 text-muted font-weight-normal">23 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card overflow-hidden"><img src="https://arctic-laravel.ui-lib.com/images/gallery/sq-13.jpg" alt="" />
+                <div class="d-flex justify-content-between align-items-center py-md px-3">
+                    <div class="d-flex align-items-center"><i
+                            class="material-icons text-16 mr-1 text-muted">favorite</i><span class="mr-2">2.3K
+                        </span><i class="material-icons text-16 mr-1 text-muted">chat</i><span>900</span>
+                    </div>
+                    <p class="m-0 text-muted font-weight-normal">23 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card overflow-hidden"><img src="https://arctic-laravel.ui-lib.com/images/gallery/sq-15.jpg" alt="" />
+                <div class="d-flex justify-content-between align-items-center py-md px-3">
+                    <div class="d-flex align-items-center"><i
+                            class="material-icons text-16 mr-1 text-muted">favorite</i><span class="mr-2">2.3K
+                        </span><i class="material-icons text-16 mr-1 text-muted">chat</i><span>900</span>
+                    </div>
+                    <p class="m-0 text-muted font-weight-normal">23 days ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card overflow-hidden"><img src="https://arctic-laravel.ui-lib.com/images/gallery/sq-13.jpg" alt="" />
+                <div class="d-flex justify-content-between align-items-center py-md px-3">
+                    <div class="d-flex align-items-center"><i
+                            class="material-icons text-16 mr-1 text-muted">favorite</i><span class="mr-2">2.3K
+                        </span><i class="material-icons text-16 mr-1 text-muted">chat</i><span>900</span>
+                    </div>
+                    <p class="m-0 text-muted font-weight-normal">23 days ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card md-xl">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-primary mb-md"><i class="material-icons">group</i></span>
+                        <h3 class="font-weight-bold m-0">30.2K</h3>
+                        <h6 class="heading-muted mb-xl">Reach</h6><a class="btn btn-opacity-danger btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_down </i>12.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-success mb-md"><i class="material-icons">touch_app</i></span>
+                        <h3 class="font-weight-bold m-0">9.2K</h3>
+                        <h6 class="heading-muted mb-xl">Engagement</h6><a class="btn btn-opacity-success btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_up </i>58.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-success mb-md"><i
+                                class="material-icons">attach_money</i></span>
+                        <h3 class="font-weight-bold m-0">11.25</h3>
+                        <h6 class="heading-muted mb-xl">Rate per cost</h6><a class="btn btn-opacity-danger btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_down </i>24.62%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center"><span
+                            class="badge badge-opacity badge-info mb-md"><i class="material-icons">rate_review</i></span>
+                        <h3 class="font-weight-bold m-0">10.8%</h3>
+                        <h6 class="heading-muted mb-xl">Average rate per cost</h6><a
+                            class="btn btn-opacity-info btn-sm d-flex" href="#"><i class="material-icons">arrow_drop_down
+                            </i>12.52%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-xxl">
+        <div class="col-xl-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="card-title m-0">Reach Impressions history</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary rounded-circle btn-icon m-0" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#"><i
+                                    class="material-icons">build</i>Action</a><a class="dropdown-item" href="#"><i
+                                    class="material-icons">add_shopping_cart</i>Another
+                                action</a><a class="dropdown-item" href="#"><i class="material-icons">create</i>Something
+                            </a></div>
+                    </div>
+                </div>
+                <div class="card-body pl-0">
+                    <div id="analayticTwo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="heading-muted mb-0">Likes Received</h6>
+                        <h3 class="font-weight-bold mb-md">3.2K</h3><a class="btn btn-opacity-danger btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_down </i>12.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card position-relative">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="heading-muted m-0">Avg. Likes Received</h6>
+                        <h3 class="font-weight-bold mb-md">225.6</h3><a class="btn btn-opacity-primary btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_down </i>03.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card position-relative">
+                <button class="ul-analytic-sup btn btn-raised btn-outline-info rounded-circle btn-icon btn-sm"><img
+                        class="rounded-circle" src="https://arctic-laravel.ui-lib.com/images/faces/2.jpg" alt="" /></button>
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="heading-muted m-0">Feedback</h6>
+                        <h3 class="font-weight-bold mb-md">1.2K</h3><a class="btn btn-opacity-primary btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_down </i>05.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-xl">
+            <div class="card position-relative">
+                <div class="card-body">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <h6 class="heading-muted m-0">Avg Feedback</h6>
+                        <h3 class="font-weight-bold mb-md">1.2K</h3><a class="btn btn-opacity-success btn-sm d-flex"
+                            href="#"><i class="material-icons">arrow_drop_up</i>05.6%</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-xl">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="card-title m-0">Like history</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary rounded-circle btn-icon m-0" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#"><i
+                                    class="material-icons">build</i>Action</a><a class="dropdown-item" href="#"><i
+                                    class="material-icons">add_shopping_cart</i>Another
+                                action</a><a class="dropdown-item" href="#"><i class="material-icons">create</i>Something
+                            </a></div>
+                    </div>
+                </div>
+                <div class="card-body pl-0">
+                    <div id="analayticFour"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-xl">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="card-title m-0">Comment history</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary rounded-circle btn-icon m-0" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#"><i
+                                    class="material-icons">build</i>Action</a><a class="dropdown-item" href="#"><i
+                                    class="material-icons">add_shopping_cart</i>Another
+                                action</a><a class="dropdown-item" href="#"><i class="material-icons">create</i>Something
+                            </a></div>
+                    </div>
+                </div>
+                <div class="card-body pl-0">
+                    <div id="analayticFive"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-md">
+        <div class="col-xl-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="card-title m-0">Posting Habits </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary rounded-circle btn-icon m-0" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_horiz</i></button>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#"><i
+                                    class="material-icons">build</i>Action</a><a class="dropdown-item" href="#"><i
+                                    class="material-icons">add_shopping_cart</i>Another
+                                action</a><a class="dropdown-item" href="#"><i class="material-icons">create</i>Something
+                            </a></div>
+                    </div>
+                </div>
+                <div class="card-body pl-0 pt-0 pb-0">
+                    <div id="analayticThree"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+
+                <!-- Start:: content (Your custom content)-->
+                <!-- Start:: Footer-->
+                <!-- Start:: Footer-->
+<div class="flex-grow-1"></div>
+<div class="bg-card px-lg py-md d-flex justify-content-between align-items-center flex-wrap shadow-6dp">
+    <a class="btn btn-flat btn-warning">Buy Arctic</a>
+    <p class="text-muted m-0">All rights reserved &copy; UI Lib 2020</p>
+</div>
+<!-- End:: Footer-->                <!-- End:: Footer-->
+            </div>
+            <!-- End:: content body-->
+        </div>
+        
+        <div class="narrow-sidebar">
+    <span class="m-auto"> </span>
+    <button
+        class="btn btn-raised btn-raised-primary rounded-circle btn-sm btn-icon mr-0 my-12 sidebar-customizer-settings open"
+        data-toggle="tooltip" data-placement="left" title="Theme Settings"><i
+            class="material-icons">settings</i></button>
+    <div class="egret-customizer bg-white">
+        <div class="egret-customizer-header d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center"><span class="material-icons mr-2 text-primary">
+                    settings
+                </span>
+                <h6 class="m-0">Theme Settings</h6>
+            </div>
+            <button class="btn rounded-circle btn-sm btn-icon m-0 customizer-close"><i
+                    class="material-icons">close</i></button>
+        </div>
+        <div class="egret-customizer-body p-md">
+            <div class="mt-0 mb-lg">
+                <p class="text-gray-700 font-weight-normal">Sidebar Theme</p>
+                <div class="colors" id="colors">
+                    <div class="color" id="colorx" data-sidebar-color="sidebar-theme-white">
+                        <div class="sub-color light"></div>
+                    </div>
+                    <div class="color bg-slate" id="color2" data-sidebar-color="sidebar-theme-slate">
+                        <div class="sub-color dark"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="egret-customizer-body p-md">
+            <div class="mt-0 mb-lg">
+                <p class="text-gray-700 font-weight-normal">Sidebar Layouts</p>
+                <div class="">
+                    <div class="mb-lg rounded-lg">
+                        <a class="" href="https://arctic-laravel.ui-lib.com/large-sidebar/dashboard/analytic">
+                            <img class="rounded-lg" src="https://arctic-laravel.ui-lib.com/images/screenshots/html/layout1.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="mb-lg rounded-lg">
+
+                        <a href="https://arctic-laravel.ui-lib.com/compact-sidebar/dashboard/analytic">
+                            <img class="rounded-lg" src="https://arctic-laravel.ui-lib.com/images/screenshots/html/layout3.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="color bg-slate" id="color1" data-sidebar-color="sidebar-theme-slate">
+                        <div class="sub-color dark"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><span class="m-auto"></span>
+    <button
+        class="btn btn-raised btn-raised-primary rounded-circle btn-sm btn-icon mr-0 narrow-sidebar-toggle-button open"><i
+            class="material-icons">
+            keyboard_arrow_right
+        </i></button>
+    <div class="toggle"></div>
+</div>
+    </div>
+
+
+    <!--begin::sidebar-panel-notification-->
+    <!--begin::sidebar-panel-notification-->
+<div class="ul-sidebar-panel" id="asideNotification" data-position="right">
+    <!--begin::sidebar-panel-notification content-->
+    <div class="pt-lg pb-md">
+        <div class="ul-sidebar-panel-top pb-lg px-lg">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="heading-label p-0">Notifications</div><i
+                    class="material-icons icon icon-sm hover-gray ul-sidebar-panel-close">close</i>
+            </div>
+        </div>
+        <div data-perfect-scrollbar="" data-suppress-scroll-x="true" style="height: calc(100vh - 170px)">
+            <div class="notification-item d-flex border-bottom mb-lg pb-lg px-lg"><span
+                    class="badge badge-opacity rounded-circle badge-primary mr-md"><i
+                        class="material-icons">cloud_upload</i></span>
+                <div class="d-flex flex-column justify-content-center w-full">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">Watson uploaded a
+                                file</a></p>
+                        <p class="text-small text-muted m-0">15 min ago</p>
+                    </div>
+                    <p class="text-muted text-small mb-sm">On <a href="">Project alpha</a></p>
+                    <div class="px-md py-sm gray-100 rounded"><img class="icon-sm" alt="icon"
+                            src="https://arctic-laravel.ui-lib.com/images/file-types/001-pdf.svg" /><span
+                            class="text-small font-weight-semi">
+                            <a class="text-body" href="#">progress_report.pdf</a></span></div>
+                </div>
+            </div>
+            <div class="notification-item d-flex border-bottom mb-lg pb-lg px-lg"><span
+                    class="badge badge-opacity rounded-circle badge-primary mr-md"><i
+                        class="material-icons">description</i></span>
+                <div class="d-flex flex-column justify-content-center w-full">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">John commented on
+                                a
+                                task</a></p>
+                        <p class="text-small text-muted m-0">5 min ago</p>
+                    </div>
+                    <p class="text-muted text-small mb-sm">On <a href="">Project alpha</a></p>
+                    <div class="px-md py-sm gray-100 rounded"><span class="text-small">
+                            What's the progress of this project? <br>Can you send me the files?</span></div>
+                </div>
+            </div>
+            <div class="notification-item d-flex border-bottom mb-lg pb-lg px-lg"><span
+                    class="badge badge-opacity rounded-circle badge-warning mr-md"><i
+                        class="material-icons">announcement</i></span>
+                <div class="d-flex flex-column justify-content-center w-full">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">John opened a new
+                                Topic</a></p>
+                        <p class="text-small text-muted m-0">45 min ago</p>
+                    </div>
+                    <p class="text-muted text-small mb-sm">On <a href="">Project alpha</a></p>
+                </div>
+            </div>
+            <div class="notification-item d-flex border-bottom mb-lg pb-lg px-lg"><span
+                    class="badge badge-opacity rounded-circle badge-primary mr-md"><i
+                        class="material-icons">cloud_upload</i></span>
+                <div class="d-flex flex-column justify-content-center w-full">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">John uploaded a
+                                file</a></p>
+                        <p class="text-small text-muted m-0">15 min ago</p>
+                    </div>
+                    <p class="text-muted text-small mb-sm">On <a href="">Project alpha</a></p>
+                    <div class="px-md py-sm gray-100 rounded"><img class="icon-sm" alt="icon"
+                            src="https://arctic-laravel.ui-lib.com/images/file-types/004-xlsx.svg" /><span
+                            class="text-small font-weight-semi">
+                            <a class="text-body" href="#">budget_report.xlsx</a></span></div>
+                </div>
+            </div>
+            <div class="notification-item d-flex border-bottom mb-lg pb-lg px-lg"><span
+                    class="badge badge-opacity rounded-circle badge-warning mr-md"><i
+                        class="material-icons">announcement</i></span>
+                <div class="d-flex flex-column justify-content-center w-full">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">John opened a new
+                                Topic</a></p>
+                        <p class="text-small text-muted m-0">45 min ago</p>
+                    </div>
+                    <p class="text-muted text-small mb-sm">On <a href="">Project alpha</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="px-xl py-md"><a class="btn btn-opacity btn-primary w-full">View All Notificaitons</a></div>
+    </div>
+    <!--end::sidebar-panel-notification content-->
+</div>
+<!--end::sidebar-panel-notification-->
+    <!--end::sidebar-panel-notification-->
+    <!--Sidebar panel Profile-->
+    <!--Sidebar panel Profile-->
+<div class="ul-sidebar-panel" id="asideProfile" data-position="right">
+    <div class="pt-lg pb-md px-lg">
+        <div class="ul-sidebar-panel-top mb-md">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="heading-label p-0">Profile</div>
+                <div class="flex-grow-1"></div><i
+                    class="material-icons icon icon-sm hover-gray ul-sidebar-panel-close">close</i>
+            </div>
+        </div>
+        <div data-perfect-scrollbar="" data-suppress-scroll-x="true" style="height: calc(100vh - 112px)">
+            <div class="ul-sidebar-aside-profile d-flex mb-xxl align-items-center"><img class="rounded-circle avatar-lg"
+                    src="https://arctic-laravel.ui-lib.com/images/faces/1.jpg" alt="" />
+                <div class="ul-sidebar-aside-info ml-md"><a class="link-alt" href="#">
+                        <div class="font-weight-semi">Tim Clarkson</div>
+                    </a>
+                    <p class="text-small text-muted mb-sm">Front End Developer</p>
+                    <div class="d-flex ml--xs"><a class="link-alt" href="#"><i
+                                class="fab fa-google text-muted icon icon-xs hover-gray"></i></a><a
+                            class="link-alt" href="#"><i
+                                class="fab fa-twitter text-muted icon icon-xs hover-gray"></i></a><a
+                            class="link-alt" href="#"><i
+                                class="fab fa-facebook-f text-muted icon icon-xs hover-gray"></i></a></div>
+                </div>
+            </div>
+            <div class="heading-label">Skills </div>
+            <div class="d-flex justify-content-between"><span class="badge rounded-circle badge-primary mr-sm">A</span>
+                <div class="flex-grow-1">
+                    <p class="font-weight-semi m-0">Angular</p>
+                    <p class="text-muted text-small">Frontend framework</p>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="progress-wrapper mb-xl">
+                        <div class="progress-info"><span></span>
+                            <div class="progress-percentage"><span>80%</span></div>
+                        </div>
+                        <div class="progress mb-md">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%"
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between"><span class="badge rounded-circle badge-primary mr-sm">V</span>
+                <div class="flex-grow-1">
+                    <p class="font-weight-semi m-0">Vue Js</p>
+                    <p class="text-muted text-small">Frontend framework</p>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="progress-wrapper mb-xl">
+                        <div class="progress-info"><span></span>
+                            <div class="progress-percentage"><span>30%</span></div>
+                        </div>
+                        <div class="progress mb-md">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between"><span class="badge rounded-circle badge-primary mr-sm">R</span>
+                <div class="flex-grow-1">
+                    <p class="font-weight-semi m-0">React </p>
+                    <p class="text-muted text-small">Frontend framework</p>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="progress-wrapper mb-xl">
+                        <div class="progress-info"><span></span>
+                            <div class="progress-percentage"><span>50%</span></div>
+                        </div>
+                        <div class="progress mb-md">
+                            <div class="progress-bar bg-warning" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                aria-valuemax="100" role="progressbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between"><span class="badge rounded-circle badge-primary mr-sm">W</span>
+                <div class="flex-grow-1">
+                    <p class="font-weight-semi m-0">Wordpress Website</p>
+                    <p class="text-muted text-small">CMS</p>
+                </div>
+                <div class="flex-grow-1">
+                    <div class="progress-wrapper mb-xl">
+                        <div class="progress-info"><span></span>
+                            <div class="progress-percentage"><span>30%</span></div>
+                        </div>
+                        <div class="progress mb-md">
+                            <div class="progress-bar bg-success" style="width: 30%" aria-valuenow="50" aria-valuemin="0"
+                                aria-valuemax="100" role="progressbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-lg"></div>
+            <div class="heading-label">Activity</div>
+            <div class="d-flex mb-md align-items-center"><span
+                    class="badge rounded-circle badge-primary mr-sm">JH</span>
+                <div class="d-flex flex-column justify-content-center">
+                    <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">Urgent task
+                            completed</a></p><span class="text-small text-muted">By Jhon at 3:30 PM</span>
+                </div>
+            </div>
+            <div class="d-flex mb-md align-items-center"><span class="badge rounded-circle badge-success mr-sm">W</span>
+                <div class="d-flex flex-column justify-content-center">
+                    <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">Task from project
+                            Alpha</a></p><span class="text-small text-muted">By Watson at 1:30 PM</span>
+                </div>
+            </div>
+            <div class="d-flex mb-md align-items-center"><span class="badge rounded-circle badge-success mr-sm">R</span>
+                <div class="d-flex flex-column justify-content-center">
+                    <p class="text-small font-weight-semi m-0"> <a class="link-alt" href="#">Task from project
+                            Beta</a></p><span class="text-small text-muted">By Rafi at 9:30 AM</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end::sidebar-panel-Profile-->
+    <!--end::sidebar-panel-Profile-->
+    <div class="ul-sidebar-panel-overlay"></div>
+    <script src="https://arctic-laravel.ui-lib.com/js/vendors.bundle.min.js"></script>
+    <script src="https://arctic-laravel.ui-lib.com/js/layout1-main-bundle.js"></script>
+    <script src="https://arctic-laravel.ui-lib.com/js/pages/dashboard/analytic.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<script src="https://arctic-laravel.ui-lib.com/js/pages/doc.script.js"></script>
+
+
+
+
+
+
+        
+</body>
+
+</html>
